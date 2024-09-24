@@ -256,3 +256,31 @@ a {
   border: 1px solid #001e64;
   border-radius: 25px;
 }
+
+.seafood {
+  background-image: url("/images/seafood-bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 290px 0 95px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.seafood__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seafood__item {
+  width: 180px;
+  min-height: 165px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: url("/images/shell.svg");
+}
