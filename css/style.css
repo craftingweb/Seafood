@@ -404,3 +404,47 @@ a {
 .footer-social__link:hover path {
   fill: #001e64;
 }
+
+.menu-btn {
+  width: 40px;
+  background-color: transparent;
+  padding: 12px 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-top: 15px;
+  display: none;
+}
+
+.menu-btn::before,
+.menu-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #001e64;
+}
+
+.menu-btn::after {
+  bottom: 0;
+}
+
+.menu-btn::before {
+  top: 0;
+}
+
+.menu-btn span {
+  display: block;
+  height: 2px;
+  background-color: #001e64;
+}
+
+@media (max-width: 1000px) {
+  .menu__list {
+    display: none;
+  }
+  .menu-btn {
+    display: inline-block;
+  }
+}
