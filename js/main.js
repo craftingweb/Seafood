@@ -26,4 +26,8 @@ $(function () {
     fade: true,
     arrows: false,
   });
+
+  $(".menu-btn").on("click", function () {
+    $(".menu__list").toggleClass("menu__list--active");
+  });
 });
