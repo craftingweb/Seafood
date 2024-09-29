@@ -448,6 +448,16 @@ a {
   .product__name {
     width: 350px;
   }
+  .footer .logo-img,
+  .footer .menu {
+    display: none;
+  }
+  .footer__inner {
+    justify-content: center;
+  }
+  .footer {
+    padding: 32px 0 6px 0;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -484,6 +494,24 @@ a {
   }
   .product__name {
     width: 250px;
+  }
+  .seafood__item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .seafood__item-text--right {
+    flex-wrap: wrap-reverse;
+  }
+  .seafood__item-text,
+  .seafood__item-title {
+    max-width: 100%;
+  }
+  .seafood__item-text--right .seafood__item-content {
+    margin-right: 0px;
+  }
+  .seafood__blockquote-img,
+  .seafood__item-img {
+    max-width: 100%;
   }
 }
 
@@ -528,6 +556,10 @@ a {
     line-height: 28px;
     padding: 4px 40px;
   }
+  .seafood-box {
+    flex-wrap: wrap;
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   .header__content-btn {
@@ -544,5 +576,11 @@ a {
   }
   .header-slider {
     padding-left: 50px;
+  }
+  .contacts {
+    background-image: none;
+  }
+  .contacts__box {
+    width: 100%;
   }
 }
